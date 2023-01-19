@@ -1,0 +1,11 @@
+# Start of .htaccess
+# Define AppRoot Folder
+PassengerAppRoot /home/topocina/public_html
+
+# Tell Passenger that your app is a Node.js app
+PassengerAppType node
+
+# Define NodeJS StartupFile 
+PassengerStartupFile index.js
+
+# End of .htaccess
